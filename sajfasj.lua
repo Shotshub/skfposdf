@@ -144,7 +144,7 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
 	Name = "Fight In A School",
     	Callback = function()
-      loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/1d4fdd8da9d3d356309687b39b45af4e.lua"))()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/th3-osc/PathosLoader/main/PathosLoader'))()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/shotsdunkx/HAWKTUAH/refs/heads/main/w"))()
     	end
 })
