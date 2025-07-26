@@ -166,5 +166,6 @@ local Button = Tab:CreateButton({
 	Name = "Ink Game",
     	Callback = function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/shotsdunkx/bubblegumsim/refs/heads/main/bgsi"))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/shotsdunkx/HAWKTUAH/refs/heads/main/w"))()
     	end
 })
